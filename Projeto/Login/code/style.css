@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(75.71deg, #015C9E 11.7%, rgba(61, 98, 191, 0.876771) 45.36%, rgba(0, 52, 114, 0.74) 86.13%);
+  }
+  
+  .container {
+    font-family: 'Jua', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .RA,
+  .status {
+    margin-bottom: 1rem;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.25rem;
+
+  }
+  input[type="password"] {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.25rem;
+  }
+  
+  input[type="submit"] {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem; border-radius: 0.25rem;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    background: #4BBFC7;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1.25rem;
+  }
+  
+  .logo {
+    margin-top: 1.75rem;
+    text-align: center;
+  }
+
+h1 {
+  margin-bottom: 0.25rem;
+  color: #FFFFFF;
+}
+#RA {    
+  background-image: url("img/pessoa.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 2em;
+  padding-left: 1.3em;
+}
+#senha {    
+  background-image: ("img/cadeado2.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 2em;
+  padding-left: 1.3em;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+  cursor: pointer;
+
+}
+h2{
+  text-align: center;
+}
+
+
+
+ 
